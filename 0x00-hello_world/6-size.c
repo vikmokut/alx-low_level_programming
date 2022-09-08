@@ -2,9 +2,9 @@
 
 /**
  * main - entry point
- * return 0 (success)
+ * Description: printing sizes
+ * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	char c;
