@@ -1,23 +1,17 @@
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
- * main - Entry point
- * Description: Print base 16 numbers
- * Return: Always 0 (success)
+ * main -Entry point
+ * Description: prints lowercase alphabets in reverse order
+ * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
-	char c;
-	char d = '0';
+	int a;
 
-	while (d <= '9')
+	for (a = 'z'; a >= 'a'; a--)
 	{
-		putchar(d);
-		d++;
-	}
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
