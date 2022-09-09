@@ -1,19 +1,23 @@
 #include <stdio.h>
-/**
- * main -Entry point
- * Description: prints the alphabet in lowercase\n
- * Return: Always 0 (Success)
- */
-int main (void)
-{
-	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+/**
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
+ * Return: Always 0 (Success)
+*/
+
+int main(void)
+{
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		++ch;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
