@@ -1,23 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- *
- * main - Entry Point
+ * main - Entry point
  *
  * Description: print all possible different
- * 	combination of two digits.
+ *           combinations of two digits.
  *
  * Return: Always 0 (Success)
 */
 
-in main (void)
+int main(void)
 {
 	int digit1 = 0, digit2;
 
 	while (digit1 <= 9)
 	{
 		digit2 = 0;
-		while (digits2 <- 9)
+		while (digit2 <= 9)
 		{
 			if (digit1 != digit2 && digit1 < digit2)
 			{
