@@ -26,6 +26,9 @@ int numLength(int num)
 /**
  * main - Entry point
  * prints the first 98 fibonaci sequences
+ *
+ * Solution referenced to: Firdaus H. Salim
+ *
  * Return: 0
  */
 
