@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * puts2 - prints xters of a string
- * @str: the used string reference
+ * @str: string reference
  * Return: 0
  */
 
